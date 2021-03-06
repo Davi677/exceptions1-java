@@ -21,7 +21,7 @@ public class Program {
 			System.out.print("Check-in date (dd/MM/yyyy): ");
 			Date checkIn = sdf.parse(sc.next());
 			System.out.print("Check-out date (dd/MM/yyyy): ");
-			Date checkOut = sdf.parse(sc.next());
+			Date checkOut = sdf.parse(sc.next()); 
 			
 			Reservation reservation = new Reservation(number, checkIn, checkOut);
 			System.out.println("Reservation: " + reservation);
